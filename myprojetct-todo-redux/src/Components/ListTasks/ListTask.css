@@ -1,0 +1,42 @@
+.list-task-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2em;
+
+  }
+  
+  .filter-button:hover {
+    background-color: #45a049;
+  }
+  
+  .filter-button.active {
+    background-color: #388E3C;
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    gap: 10px;
+  }
+  
